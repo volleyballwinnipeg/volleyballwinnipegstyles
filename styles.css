@@ -198,7 +198,17 @@
 }
 
 .MennoniteSchoolBedsonCampus>div::before {
-    content: "MENNONITE SCHOOL";
+    content: "MENNONITE SCHOOL\nBEDSON CAMPUS";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5p
+}
+
+.MennoniteSchoolKFCampus>div::before {
+    content: "MENNONITE SCHOOL\nKF CAMPUS";
     position: absolute;
     left: 10px;
     top: 10px;
