@@ -198,7 +198,7 @@
 }
 
 .MennoniteSchoolBedsonCampus>div::before {
-    content: "MENNONITE SCHOOL\nBEDSON CAMPUS";
+    content: "MENNONITE SCHOOL \A BEDSON CAMPUS";
     position: absolute;
     left: 10px;
     top: 10px;
@@ -208,7 +208,7 @@
 }
 
 .MennoniteSchoolKFCampus>div::before {
-    content: "MENNONITE SCHOOL\nKF CAMPUS";
+    content: "MENNONITE SCHOOL \A KF CAMPUS";
     position: absolute;
     left: 10px;
     top: 10px;
