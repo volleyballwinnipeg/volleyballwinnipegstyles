@@ -1,0 +1,223 @@
+#topNav .theme-search-wrapper {
+    background-color: rgb(6, 70, 150) !important;
+}
+
+.mlgo {
+    width: 65%;
+    padding: 15px;
+}
+
+.mqst {
+    COLOR: WHITE;
+    FONT-WEIGHT: 600;
+    background: #FFBF1F
+}
+
+.mlnk {
+    font-size: inherit;
+    color: #2c2f8c;
+    text-decoration: underline;
+}
+
+.sn-social-media-list.lg {
+    margin-top: 24px;
+}
+
+#sn-site-logo {
+    background-color: transparent;
+    border: 0px;
+}
+
+.noTabs .tabbedElement .contentTabs {
+    display: none;
+}
+
+.layoutContainer .tabbedElement {
+    margin-bottom: 0;
+}
+
+.tabbedElement .layoutContainer {
+    margin: 0 -20px 0 0;
+    padding-bottom: 0;
+}
+
+.tabbedElement .layoutContainer .pageElement {}
+
+.tabbedElement .layoutContainer {
+    margin: 0 -20px 0 0;
+    padding-left: 0;
+}
+
+.bottomImage {
+    width: 150px;
+}
+
+.googleIcon {
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 200px;
+    height: 200px;
+}
+
+.customDivider {
+    border: 0;
+    height: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+}
+
+.heroPhotoElement img {
+    border: 0px;
+}
+
+.button.blue {
+    background: linear-gradient(45deg, #0000FF, #3333FF);
+    font-size: 16px;
+}
+
+.button.green {
+    background: linear-gradient(45deg, #00cc00, #009900);
+}
+
+.button.grey {
+    background: linear-gradient(45deg, #999999, #AAAAAA);
+    font-size: 16px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s, transform 0.3s;
+    width: 100%
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(100%) rotateX(90deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover::before {
+    transform: translateY(0) rotateX(0);
+}
+
+.button::after {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    border-radius: 15px;
+    border: 1px solid #00b5ff;
+    z-index: -1;
+}
+
+/* Hover Effect */
+.button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Active Effect */
+.button:active {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+}
+
+.short {
+    width: inherit;
+}
+
+.gap {
+    padding-top: 60px;
+}
+
+@media screen and (max-width: 425px) {
+    .gap {
+        padding-top: 0px;
+    }
+}
+
+.westdale>div::before {
+    content: "WESTDALE COMMUNITY CENTRE";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+.parkcitywest>div::before {
+    content: "PARK CITY WEST CC";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+.calvinchristianschool>div::before {
+    content: "CALVIN CHRISTIAN SCHOOL";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+.NorberryGlenleeCC>div::before {
+    content: "NORBERRY-GLENLEE CC";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+.RiverOsborneCC>div::before {
+    content: "RIVER OSBORNE CC";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+.MennoniteSchoolBedsonCampus>div::before {
+    content: "MENNONITE SCHOOL";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5p
+}
