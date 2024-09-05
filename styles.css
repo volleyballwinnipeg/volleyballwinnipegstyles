@@ -207,8 +207,8 @@
     padding: 0 5px 0 5p
 }
 
-.youthAcademy>div::before {
-    content: "MENNONITE SCHOOL";
+.youthAcademy::before {
+    content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
@@ -217,8 +217,8 @@
     padding: 0 5px 0 5p
 }
 
-.allSkillsCamps>div::before {
-    content: "MENNONITE SCHOOL";
+.allSkillsCamps::before {
+    content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
@@ -227,8 +227,8 @@
     padding: 0 5px 0 5p
 }
 
-.seasonalCamps>div::before {
-    content: "MENNONITE SCHOOL";
+.seasonalCamps::before {
+    content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
@@ -237,8 +237,8 @@
     padding: 0 5px 0 5p
 }
 
-.coedLeague>div::before {
-    content: "MENNONITE SCHOOL";
+.coedLeague::before {
+    content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
@@ -247,8 +247,8 @@
     padding: 0 5px 0 5p
 }
 
-.mensLeague>div::before {
-    content: "MENNONITE SCHOOL";
+.mensLeague::before {
+    content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
@@ -257,8 +257,8 @@
     padding: 0 5px 0 5p
 }
 
-.youthLeague>div::before {
-    content: "MENNONITE SCHOOL";
+.youthLeague::before {
+    content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
