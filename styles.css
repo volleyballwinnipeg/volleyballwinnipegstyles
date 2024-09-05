@@ -207,7 +207,7 @@
     padding: 0 5px 0 5p
 }
 
-.youthAcademy::before {
+.youthAcademy>div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
@@ -217,7 +217,7 @@
     padding: 0 5px 0 5p
 }
 
-.allSkillsCamps::before {
+.allSkillsCamps>div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
@@ -227,7 +227,7 @@
     padding: 0 5px 0 5p
 }
 
-.seasonalCamps::before {
+.seasonalCamps>div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
@@ -237,7 +237,7 @@
     padding: 0 5px 0 5p
 }
 
-.coedLeague::before {
+.coedLeague>div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
@@ -247,7 +247,7 @@
     padding: 0 5px 0 5p
 }
 
-.mensLeague::before {
+.mensLeague>div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
@@ -257,7 +257,7 @@
     padding: 0 5px 0 5p
 }
 
-.youthLeague::before {
+.youthLeague>div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
