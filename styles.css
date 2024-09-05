@@ -207,6 +207,66 @@
     padding: 0 5px 0 5p
 }
 
+.youthAcademy>div::before {
+    content: "MENNONITE SCHOOL";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5p
+}
+
+.allSkillsCamps>div::before {
+    content: "MENNONITE SCHOOL";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5p
+}
+
+.seasonalCamps>div::before {
+    content: "MENNONITE SCHOOL";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5p
+}
+
+.coedLeague>div::before {
+    content: "MENNONITE SCHOOL";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5p
+}
+
+.mensLeague>div::before {
+    content: "MENNONITE SCHOOL";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5p
+}
+
+.youthLeague>div::before {
+    content: "MENNONITE SCHOOL";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5p
+}
+
 #topNav .theme-search-wrapper {
     background-color: rgb(6, 70, 150) !important;
 }
