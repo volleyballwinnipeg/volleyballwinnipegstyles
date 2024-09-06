@@ -227,6 +227,16 @@
     padding: 0 5px 0 5p
 }
 
+.johnHendersonJuniorHigh>div::before {
+    content: "John Henderson Junior High";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5p
+}
+
 .youthAcademy>div::before {
     content: "OCT - DEC";
     position: absolute;
