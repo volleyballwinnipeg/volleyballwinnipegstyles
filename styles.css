@@ -175,6 +175,30 @@
     border-radius: 5px;
 }
 
+.smashCity>div::before {
+    content: "Smash City";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+
+.prolificSportsHouseNorthLocation>div::before {
+    content: "Prolific Sports House - North Location";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+}
+
+
 .NorberryGlenleeCC>div::before {
     content: "NORBERRY-GLENLEE CC";
     position: absolute;
