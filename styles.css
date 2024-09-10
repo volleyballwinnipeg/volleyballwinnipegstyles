@@ -241,6 +241,16 @@
     padding: 0 5px 0 5p
 }
 
+.mennoniteBrethrenCollegiateInstitute>div::before {
+    content: "MENNONITE BRETHREN COLLEGIATE INSTITUTE";
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: white;
+    background: #FFBF1F;
+    padding: 0 5px 0 5p
+}
+
 .OurLadyOfVictorySchool>div::before {
     content: "OUR LADY OF VICTORY SCHOOL";
     position: absolute;
