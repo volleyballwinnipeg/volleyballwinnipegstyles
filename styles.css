@@ -1,3 +1,7 @@
+.sn-call-to-action .sn-call-to-action-overlay {
+    background: rgba(0, 0, 0, .3);
+}
+
 .mlgo {
     width: 65%;
     padding: 15px;
