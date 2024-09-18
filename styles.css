@@ -146,7 +146,7 @@
     }
 }
 
-.westdale>div::before {
+.westdale > div::before {
     content: "WESTDALE COMMUNITY CENTRE";
     position: absolute;
     left: 10px;
@@ -157,7 +157,7 @@
     border-radius: 5px;
 }
 
-.parkcitywest>div::before {
+.parkcitywest > div::before {
     content: "PARK CITY WEST CC";
     position: absolute;
     left: 10px;
@@ -168,7 +168,7 @@
     border-radius: 5px;
 }
 
-.calvinchristianschool>div::before {
+.calvinchristianschool > div::before {
     content: "CALVIN CHRISTIAN SCHOOL";
     position: absolute;
     left: 10px;
@@ -179,7 +179,7 @@
     border-radius: 5px;
 }
 
-.smashCity>div::before {
+.smashCity > div::before {
     content: "Smash City";
     position: absolute;
     left: 10px;
@@ -191,7 +191,7 @@
 }
 
 
-.prolificSportsHouseNorthLocation>div::before {
+.prolificSportsHouseNorthLocation > div::before {
     content: "Prolific Sports House - North Location";
     position: absolute;
     left: 10px;
@@ -203,7 +203,7 @@
 }
 
 
-.NorberryGlenleeCC>div::before {
+.NorberryGlenleeCC > div::before {
     content: "NORBERRY-GLENLEE CC";
     position: absolute;
     left: 10px;
@@ -214,7 +214,7 @@
     border-radius: 5px;
 }
 
-.RiverOsborneCC>div::before {
+.RiverOsborneCC > div::before {
     content: "RIVER OSBORNE CC";
     position: absolute;
     left: 10px;
@@ -225,121 +225,122 @@
     border-radius: 5px;
 }
 
-.MennoniteSchoolBedsonCampus>div::before {
+.MennoniteSchoolBedsonCampus > div::before {
     content: "MENNONITE SCHOOL \A BEDSON CAMPUS";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
-.MennoniteSchoolKFCampus>div::before {
+.MennoniteSchoolKFCampus > div::before {
     content: "MENNONITE SCHOOL \A KF CAMPUS";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
-.mennoniteBrethrenCollegiateInstitute>div::before {
+.mennoniteBrethrenCollegiateInstitute > div::before {
     content: "MENNONITE BRETHREN COLLEGIATE INSTITUTE";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
-.OurLadyOfVictorySchool>div::before {
+.OurLadyOfVictorySchool > div::before {
     content: "OUR LADY OF VICTORY SCHOOL";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
-.johnHendersonJuniorHigh>div::before {
+.johnHendersonJuniorHigh > div::before {
     content: "John Henderson Junior High";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
-.youthAcademy>div::before {
+.youthAcademy > div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
-.allSkillsCamps>div::before {
+.allSkillsCamps > div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
-.seasonalCamps>div::before {
+.seasonalCamps > div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
-.coedLeague>div::before {
+.coedLeague > div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
-.mensLeague>div::before {
+.mensLeague > div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
-.youthLeague>div::before {
+.youthLeague > div::before {
     content: "OCT - DEC";
     position: absolute;
     left: 10px;
     top: 10px;
     color: white;
     background: #FFBF1F;
-    padding: 0 5px 0 5p
+    padding: 0 5px 0 5px
 }
 
 #topNav .theme-search-wrapper {
     background-color: rgb(6, 70, 150) !important;
 }
 
-.tabbedElement .layoutContainer .pageElement {}
+.tabbedElement .layoutContainer .pageElement {
+}
 
 .tabbedElement .layoutContainer {
     margin: 0 -20px 0 0;
@@ -368,6 +369,7 @@ div.seasonal {
     overflow: hidden;
     transition: height 2s ease; /* Smooth transition */
 }
+
 .infoHider {
     border: black 1px solid;
     border-radius: 10px;
@@ -377,21 +379,23 @@ div.seasonal {
     background: linear-gradient(180deg, #54935c, #6fae27);
     padding: 10px;
 
-	display: inline-block;
+    display: inline-block;
 }
-.infoHider:hover{
-cursor: pointer;
+
+.infoHider:hover {
+    cursor: pointer;
 }
-.infoHider:active{
+
+.infoHider:active {
     background: linear-gradient(0deg, #54935c, #6fae27);
 }
 
-.infoHider:after{
-	content: '';
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	width: calc(100% - 4px);
-	height: 50%;
-	background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+.infoHider:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
 }
